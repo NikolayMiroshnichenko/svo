@@ -168,16 +168,16 @@
 	width: 516px;
 	font-size: 18px;
 	font-weight: bold;
-	border: none;
-	outline: none;
 	color: #ffffff;
 	padding: 4px 10px;
-	box-sizing: border-box;
+	text-align: center;
+	text-decoration: none;
 	background-image: url(../img/ok/ok-btn.png);
 	background-repeat: no-repeat;
-	background-position: contain;
+	background-size: cover;
 	margin-bottom: 30px;
 	cursor: pointer;
+	transition: all 0.4s;
 }
 .ok-content-list__btn span {
 	font-size: 14px;
@@ -244,11 +244,10 @@
 	width: 516px;
 	font-size: 18px;
 	font-weight: bold;
-	border: none;
-	outline: none;
 	color: #ffffff;
 	padding: 4px 10px;
-	box-sizing: border-box;
+	text-decoration: none;
+	text-align: center;
 	background-image: url(../img/ok/ok-btn.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -256,7 +255,13 @@
 	margin: 0 auto;
 	margin-bottom: 150px;
 	cursor: pointer;
+	transition: all 0.4s;
 }
 .list-contakt__btn span {
 	font-size: 14px;
+}
+.ok-content-list__btn:hover,
+.list-contakt__btn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }

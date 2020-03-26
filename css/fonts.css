@@ -28,3 +28,9 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Montserrat'; 
+  src: url('../fonts/Montserrat-Bold.otf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */  
+  font-weight: normal; 
+  font-style: normal;
+  }
