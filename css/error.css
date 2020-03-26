@@ -1,0 +1,103 @@
+.error-main {
+    position: relative;
+}
+.error-main-svo {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 180px;
+    font-weight: 500;
+    opacity: 0.05;
+    margin: 0;
+    line-height: 1;
+}
+.error-main__title {
+    text-align: center;
+    font-size: 34px;
+    padding: 40px 0;
+}
+.error-main__title span {
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 
+		-0   -2px 0   #DC3636,
+		 0   -2px 0   #DC3636,
+		-0    2px 0   #DC3636,
+		 0    2px 0   #DC3636,
+		-2px -0   0   #DC3636,
+		 2px -0   0   #DC3636,
+		-2px  0   0   #DC3636,
+		 2px  0   0   #DC3636,
+		-1px -2px 0   #DC3636,
+		 1px -2px 0   #DC3636,
+		-1px  2px 0   #DC3636,
+		 1px  2px 0   #DC3636,
+		-2px -1px 0   #DC3636,
+		 2px -1px 0   #DC3636,
+		-2px  1px 0   #DC3636,
+		 2px  1px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636;
+}
+.error-main__error {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.error-main__text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 60px; 
+}
+.error-number {
+    margin-bottom: 120px;
+}
+.error-number__title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.error-number-list {
+    display: flex;
+    justify-content: space-between;
+    width: 644px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.error-number-list__item {
+    position: relative;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.error-number-list__item::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/error/call.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.error-number__info {
+    text-align: center;
+}
+.error-number__info span {
+    font-weight: bold;
+}

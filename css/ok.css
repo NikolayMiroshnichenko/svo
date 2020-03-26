@@ -1,0 +1,262 @@
+.header-ok {
+    border-top: 1px solid #e78e8e;
+    border-bottom: 1px solid #e78e8e;
+    padding: 14px;
+    margin-bottom: 60px;
+}
+.header-ok-text {
+    text-align: center;
+    margin: 0;
+}
+.header-opacity__first {
+    opacity: 0.5;
+}
+.header-opacity__second {
+    opacity: 0.2;
+}
+.main-ok-descriptions {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+.main-ok-descriptions span {
+    color: #c63030;
+}
+.main-ok-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.main-ok-title span {
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 
+		-0   -2px 0   #DC3636,
+		 0   -2px 0   #DC3636,
+		-0    2px 0   #DC3636,
+		 0    2px 0   #DC3636,
+		-2px -0   0   #DC3636,
+		 2px -0   0   #DC3636,
+		-2px  0   0   #DC3636,
+		 2px  0   0   #DC3636,
+		-1px -2px 0   #DC3636,
+		 1px -2px 0   #DC3636,
+		-1px  2px 0   #DC3636,
+		 1px  2px 0   #DC3636,
+		-2px -1px 0   #DC3636,
+		 2px -1px 0   #DC3636,
+		-2px  1px 0   #DC3636,
+		 2px  1px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636;
+}
+.ok-content {
+	position: relative;
+    display: flex;
+	justify-content: space-between;
+}
+.ok-content-video {
+    width: 42%;
+}
+.ok-content-video__title {
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 
+		-0   -2px 0   #DC3636,
+		 0   -2px 0   #DC3636,
+		-0    2px 0   #DC3636,
+		 0    2px 0   #DC3636,
+		-2px -0   0   #DC3636,
+		 2px -0   0   #DC3636,
+		-2px  0   0   #DC3636,
+		 2px  0   0   #DC3636,
+		-1px -2px 0   #DC3636,
+		 1px -2px 0   #DC3636,
+		-1px  2px 0   #DC3636,
+		 1px  2px 0   #DC3636,
+		-2px -1px 0   #DC3636,
+		 2px -1px 0   #DC3636,
+		-2px  1px 0   #DC3636,
+		 2px  1px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636;
+}
+.ok-content-video__video {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    border: 1px solid #DC3636;
+    margin-bottom: 40px;
+}
+.video {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+}
+.ok-content-descriptions {
+    width: 50%;
+}
+.ok-content-list {
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 100px;
+}
+.ok-content-list__title {
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0;
+	margin-bottom: 16px;
+    text-shadow: 
+		-0   -2px 0   #DC3636,
+		 0   -2px 0   #DC3636,
+		-0    2px 0   #DC3636,
+		 0    2px 0   #DC3636,
+		-2px -0   0   #DC3636,
+		 2px -0   0   #DC3636,
+		-2px  0   0   #DC3636,
+		 2px  0   0   #DC3636,
+		-1px -2px 0   #DC3636,
+		 1px -2px 0   #DC3636,
+		-1px  2px 0   #DC3636,
+		 1px  2px 0   #DC3636,
+		-2px -1px 0   #DC3636,
+		 2px -1px 0   #DC3636,
+		-2px  1px 0   #DC3636,
+		 2px  1px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636;
+}
+.ok-content-list__text {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 2.0;
+	margin-bottom: 24px;
+}
+.ok-content-list__text-bold {
+	font-weight: bold;
+}
+.ok-content-list__text-red {
+	color: #DC3636;
+}
+.ok-content-list__btn {
+	position: relative;
+	display: block;
+	width: 516px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	padding: 4px 10px;
+	box-sizing: border-box;
+	background-image: url(../img/ok/ok-btn.png);
+	background-repeat: no-repeat;
+	background-position: contain;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.ok-content-list__btn span {
+	font-size: 14px;
+	font-weight: 500;
+}
+.list-contakt {
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-bottom: 60px;
+}
+.list-contakt__item {
+	width: 25%;
+}
+.list-contakt__item img {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.list-contakt__item h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 16px;
+    text-shadow: 
+		-0   -2px 0   #DC3636,
+		 0   -2px 0   #DC3636,
+		-0    2px 0   #DC3636,
+		 0    2px 0   #DC3636,
+		-2px -0   0   #DC3636,
+		 2px -0   0   #DC3636,
+		-2px  0   0   #DC3636,
+		 2px  0   0   #DC3636,
+		-1px -2px 0   #DC3636,
+		 1px -2px 0   #DC3636,
+		-1px  2px 0   #DC3636,
+		 1px  2px 0   #DC3636,
+		-2px -1px 0   #DC3636,
+		 2px -1px 0   #DC3636,
+		-2px  1px 0   #DC3636,
+		 2px  1px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636,
+		-2px -2px 0   #DC3636,
+		 2px -2px 0   #DC3636,
+		-2px  2px 0   #DC3636,
+		 2px  2px 0   #DC3636;
+}
+.list-contakt__item p {
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.list-contakt__btn {
+	position: relative;
+	display: block;
+	width: 516px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	padding: 4px 10px;
+	box-sizing: border-box;
+	background-image: url(../img/ok/ok-btn.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	margin-bottom: 150px;
+	cursor: pointer;
+}
+.list-contakt__btn span {
+	font-size: 14px;
+}
