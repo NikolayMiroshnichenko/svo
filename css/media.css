@@ -38,6 +38,9 @@
     .services-second__item {
         padding: 0 0 120px 0;
     }
+    .form {
+        width: 50%;
+    }
     .form-btn {
         margin-bottom: 20px;
         font-size: 14px;
@@ -110,9 +113,6 @@
     .price-list__img {
         width: 60%;
         z-index: 2;
-    }
-    .form {
-        width: 50%;
     }
     .form-title {
         font-size: 16px;
