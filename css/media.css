@@ -387,7 +387,10 @@
     } 
     .error-main__text {
         font-size: 16px;
-        padding: 20px 10px 20px 10px;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        margin-bottom: 10px;
+        line-height: 1.6;
     }
     .error-number__title {
         padding-bottom: 40px;
@@ -399,6 +402,7 @@
     }
     .error-number-list__item {
         padding-right: 40px;
+        margin-bottom: 40px;
     }
     .error-main-svo {
         font-size: 140px;

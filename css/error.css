@@ -78,6 +78,9 @@
     margin-bottom: 60px;
 }
 .error-number-list__item {
+    display: block;
+    text-decoration: none;
+    color: #000;
     position: relative;
     font-weight: bold;
     padding-left: 40px;
@@ -96,6 +99,9 @@
     background-position: center;
 }
 .error-number__info {
+    display: block;
+    text-decoration: none;
+    color: #000;
     text-align: center;
 }
 .error-number__info span {
