@@ -1,9 +1,6 @@
 @import './ok.css';
 @import './error.css';
 
-* {
-    z-index: 2;
-}
 body {
     margin: 0;
     padding: 0;
@@ -535,7 +532,15 @@ body {
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    margin-top: 30px;
     margin-bottom: 30px;
+}
+.iti__flag-container {
+    right: 0;
+}
+.iti__country-list {
+    position: relative;
+    z-index: 5;
 }
 .checkbox input[type="checkbox"] {
     opacity: 0;
@@ -546,7 +551,6 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
 }
 .checkbox-linck {
     position: relative;
@@ -583,12 +587,7 @@ body {
     left: 5px;
     top: 33%;
 }
-/* .checkbox input[type="checkbox"] + label::after {
-    content: none;
-}
-.checkbox input[type="checkbox"]:checked + label::after {
-    content: "";
-} */
+
 
 
 
