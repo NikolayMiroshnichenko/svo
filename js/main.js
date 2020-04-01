@@ -8,14 +8,15 @@ window.intlTelInput (input, {
     customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
         return "";
     },
-    nationalMode: false,
-    initialCountry: 'auto',
     geoIpLookup: function(callback) {
         $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
             var countryCode = (resp && resp.country) ? resp.country : "";
             callback(countryCode);
         });
     },
+    nationalMode: false,
+    initialCountry: 'auto',
+    
     preferredCountries: ['ua', 'ru', 'by', 'kz']
 
 });
